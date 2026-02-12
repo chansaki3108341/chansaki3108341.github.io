@@ -1,0 +1,33 @@
+title: Chansaki
+description: 心にうつりゆくよしなしごと
+lang: ja
+timezone: Asia/Tokyo
+
+# GitHub Pages (Jekyll) settings
+markdown: kramdown
+kramdown:
+  input: Kramdown
+permalink: pretty
+
+# 独り言（エッセイ/日記）用コレクション
+collections:
+  murmurs:
+    output: true
+    permalink: /murmurs/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: murmurs
+    values:
+      layout: murmur
+
+# GitHub Pagesの安全モードで動く範囲に留める（プラグインなし）
+plugins: []
+
+#ユーザーサイト
+url: "https://chansaki3108341.github.io"
+baseurl: ""
+
+
+
