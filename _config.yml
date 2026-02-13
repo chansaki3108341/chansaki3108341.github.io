@@ -29,5 +29,7 @@ plugins: []
 url: "https://chansaki3108341.github.io"
 baseurl: ""
 
+# Google Analytics 4
+google_analytics: G-YCKL80CNB3
 
 
