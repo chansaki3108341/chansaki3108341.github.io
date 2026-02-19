@@ -16,6 +16,14 @@ layout: default
 
   {{ content }}
 
+  {% if page.comments != false %}
+    <hr>
+    <section class="comments" aria-label="コメント">
+      <h2>Comments</h2>
+      {% include giscus.html %}
+    </section>
+  {% endif %}
+
   <footer class="murmur-footer">
     <a href="{{ '/murmurs/' | relative_url }}">← 独り言一覧へ</a>
   </footer>

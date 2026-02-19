@@ -413,6 +413,29 @@ main.container{
   font-size: 1.04rem;
 }
 
+/* Comments (giscus) */
+.comments{
+  margin-top: var(--s-6);
+}
+
+.comments h2{
+  font-size: 1.1rem;
+  margin: 0 0 .6rem;
+}
+
+.giscus-wrap{
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: var(--s-3);
+  background: color-mix(in srgb, var(--surface-strong) 70%, transparent);
+  box-shadow: var(--shadow-soft);
+}
+
+.giscus,
+.giscus-frame{
+  width: 100%;
+}
+
 @media (max-width: 640px){
   .site-header{
     padding: .72rem 0;

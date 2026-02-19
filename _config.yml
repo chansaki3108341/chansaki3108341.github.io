@@ -21,6 +21,21 @@ defaults:
       type: murmurs
     values:
       layout: murmur
+      comments: true
+
+# Giscus (GitHub Discussions-based comments)
+giscus:
+  repo: "chansaki3108341/giscus_comment"
+  repo_id: "R_kgDORT0iyw"
+  category: "General"
+  category_id: "DIC_kwDORT0iy84C2xpE"
+  mapping: "pathname"
+  strict: "0"
+  reactions_enabled: "1"
+  emit_metadata: "0"
+  input_position: "bottom"
+  theme: "preferred_color_scheme"
+  lang: "ja"
 
 # GitHub Pagesの安全モードで動く範囲に留める（プラグインなし）
 plugins: []
@@ -31,5 +46,3 @@ baseurl: ""
 
 # Google Analytics 4
 google_analytics: G-YCKL80CNB3
-
-
