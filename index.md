@@ -43,8 +43,8 @@ description: PCにむかひて、心にうつりゆくよしなしごとを、�
 - EWD（Dijkstra Archive）[[16]](#ref-16)
   - 言い回しが過激に感じる箇所もあるが、それほどまでに、ダイクストラが、強く伝えたいことがあったのだと実感する。
   - 特に好きな2本：
-    - There is still a war going on (EWD1165)[[17]](#ref-17)
-    - Answers to questions from students of Software Engineering (EWD1305)[[18]](#ref-18)
+    - 『There is still a war going on』 (EWD1165)[[17]](#ref-17)
+    - 『Answers to questions from students of Software Engineering』 (EWD1305)[[18]](#ref-18)
 
 <h2 id="research">研究分野</h2>
 
