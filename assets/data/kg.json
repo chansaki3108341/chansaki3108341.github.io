@@ -71,11 +71,11 @@
   },
   {
     "data": {
-      "id": "post_hello",
-      "label": "はじめての独り言",
+      "id": "post_kamechan_pattern",
+      "label": "亀模様作成🐢",
       "type": "post",
       "parent": "page_murmurs",
-      "href": "/murmurs/2026-02-12-hello/"
+      "href": "/murmurs/2026-02-21-kamechan-pattern/"
     }
   },
   {
@@ -291,6 +291,14 @@
   },
   {
     "data": {
+      "id": "club_science_biology",
+      "label": "科学部生物班",
+      "type": "concept",
+      "parent": "mem_bio"
+    }
+  },
+  {
+    "data": {
       "id": "org_waseda",
       "label": "早稲田大学",
       "type": "concept",
@@ -407,6 +415,30 @@
       "source": "school_takada",
       "target": "org_waseda",
       "label": "progression"
+    }
+  },
+  {
+    "data": {
+      "id": "e_club_bio_belongs_takada",
+      "source": "club_science_biology",
+      "target": "school_takada",
+      "label": "belongs_to"
+    }
+  },
+  {
+    "data": {
+      "id": "e_club_bio_related_toba",
+      "source": "club_science_biology",
+      "target": "place_toba",
+      "label": "related_to"
+    }
+  },
+  {
+    "data": {
+      "id": "e_post_kamechan_from_club",
+      "source": "post_kamechan_pattern",
+      "target": "club_science_biology",
+      "label": "influenced_by"
     }
   },
   {
