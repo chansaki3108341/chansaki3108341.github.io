@@ -21,7 +21,7 @@ scripts:
     <div id="kg" class="kg" data-elements-url="{{ '/assets/data/kg.json' | relative_url }}"></div>
   </div>
 
-  <aside id="kgPanel" class="kg-panel" aria-live="polite">
+  <aside id="kgPanel" class="kg-panel" aria-live="polite" hidden>
     <div class="kg-panel__inner">
       <div class="kg-panel__header">
         <div class="kg-panel__kicker muted small">選択中のノード</div>

@@ -123,14 +123,6 @@
             }
           },
           {
-            selector: 'node#post_hello',
-            style: {
-              'background-color': COLORS.surface,
-              'border-color': COLORS.border,
-              'font-weight': 400
-            }
-          },
-          {
             selector: 'node[type="tag"]',
             style: { shape: 'ellipse', 'background-color': COLORS.accentSoft }
           },
@@ -234,7 +226,7 @@
 
       function setPanelEmpty() {
         if (!panel) return;
-        panel.style.display = 'none';
+        panel.hidden = true;
         if (panelTitle) panelTitle.textContent = '（未選択）';
         if (panelMeta) panelMeta.textContent = 'ノードをクリックして選択してください。';
         if (panelOpen) {
@@ -251,7 +243,7 @@
         if (!panel) return;
 
         if (!node) return setPanelEmpty();
-        panel.style.display = '';
+        panel.hidden = false;
 
         const label = node.data('label') || node.id();
         const cat = findCategoryLabel(node);
