@@ -467,6 +467,22 @@
   },
   {
     "data": {
+      "id": "e_lab_ueda_belongs_waseda",
+      "source": "lab_ueda",
+      "target": "org_waseda",
+      "label": "belongs_to"
+    }
+  },
+  {
+    "data": {
+      "id": "e_lab_wu_belongs_waseda",
+      "source": "lab_washizaki_ubayashi",
+      "target": "org_waseda",
+      "label": "belongs_to"
+    }
+  },
+  {
+    "data": {
       "id": "e2_lab_ueda_to_wu",
       "source": "lab_ueda",
       "target": "lab_washizaki_ubayashi",
