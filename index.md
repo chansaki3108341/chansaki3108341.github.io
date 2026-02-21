@@ -13,7 +13,7 @@ description: PCにむかひて、心にうつりゆくよしなしごとを、�
 <h2 id="words">好きな言葉（順不同）</h2>
 
 - *Mathematical elegance is not a dispensable luxury but decides between success and failure.* — Edsger W. Dijkstra[[2]](#ref-2)
-  - "動けばいい"では終わらせず、”エレガンス”を成功条件として扱う姿勢を忘れ内容にしたい。
+  - "動けばいい"では終わらせず、”エレガンス”を成功条件として扱う姿勢を忘れないようにしたい。
 - 困難は分割せよ[[3]](#ref-3)
   - 分割統治法はアルゴリズムの技法であると同時に、思考の技法でもあると思う。
 - 私の円を乱すな[[4]](#ref-4)
