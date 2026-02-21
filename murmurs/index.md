@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 独り言
+title: Chansakiの独り言
 description: エッセイ、日記、思いつき。
 ---
 

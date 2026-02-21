@@ -1,0 +1,516 @@
+[
+  {
+    "data": {
+      "id": "mem_root",
+      "label": "Chansakiの個人サイト",
+      "type": "membrane"
+    }
+  },
+  {
+    "data": {
+      "id": "mem_words",
+      "label": "好きな言葉",
+      "type": "membrane",
+      "parent": "mem_root",
+      "href": "/#words"
+    }
+  },
+  {
+    "data": {
+      "id": "mem_books",
+      "label": "好きな本",
+      "type": "membrane",
+      "parent": "mem_root",
+      "href": "/#books"
+    }
+  },
+  {
+    "data": {
+      "id": "mem_reads",
+      "label": "好きな読み物",
+      "type": "membrane",
+      "parent": "mem_root",
+      "href": "/#reads"
+    }
+  },
+  {
+    "data": {
+      "id": "mem_research",
+      "label": "研究分野",
+      "type": "membrane",
+      "parent": "mem_root",
+      "href": "/#research"
+    }
+  },
+  {
+    "data": {
+      "id": "mem_others",
+      "label": "その他興味",
+      "type": "membrane",
+      "parent": "mem_root",
+      "href": "/#others"
+    }
+  },
+  {
+    "data": {
+      "id": "mem_bio",
+      "label": "経歴",
+      "type": "membrane",
+      "parent": "mem_root",
+      "href": "/#bio"
+    }
+  },
+  {
+    "data": {
+      "id": "page_murmurs",
+      "label": "Chansakiの独り言",
+      "type": "membrane",
+      "parent": "mem_root",
+      "href": "/murmurs/"
+    }
+  },
+  {
+    "data": {
+      "id": "post_hello",
+      "label": "はじめての独り言",
+      "type": "post",
+      "parent": "page_murmurs",
+      "href": "/murmurs/2026-02-12-hello/"
+    }
+  },
+  {
+    "data": {
+      "id": "value_elegance",
+      "label": "Mathematical elegance decides between success and failure",
+      "type": "concept",
+      "parent": "mem_words"
+    }
+  },
+  {
+    "data": {
+      "id": "value_divide",
+      "label": "困難は分割せよ",
+      "type": "concept",
+      "parent": "mem_words"
+    }
+  },
+  {
+    "data": {
+      "id": "value_circle",
+      "label": "私の円を乱すな",
+      "type": "concept",
+      "parent": "mem_words"
+    }
+  },
+  {
+    "data": {
+      "id": "value_independence",
+      "label": "進取の精神 / 学の独立",
+      "type": "concept",
+      "parent": "mem_words"
+    }
+  },
+  {
+    "data": {
+      "id": "book_geb",
+      "label": "『ゲーデル、エッシャー、バッハ』",
+      "type": "concept",
+      "parent": "mem_books",
+      "href": "https://www.hakuyo-sha.co.jp/science/%E3%82%B2%E3%83%BC%E3%83%87%E3%83%AB%E3%80%81%E3%82%A8%E3%83%83%E3%82%B7%E3%83%A3%E3%83%BC%E3%80%81%E3%83%90%E3%83%83%E3%83%8F-20%E5%91%A8%E5%B9%B4%E8%A8%98%E5%BF%B5%E7%89%88/"
+    }
+  },
+  {
+    "data": {
+      "id": "book_penrose",
+      "label": "『皇帝の新しい心』",
+      "type": "concept",
+      "parent": "mem_books",
+      "href": "https://www.msz.co.jp/book/detail/04096/"
+    }
+  },
+  {
+    "data": {
+      "id": "book_godel20c",
+      "label": "『ゲーデルと20世紀の論理学』",
+      "type": "concept",
+      "parent": "mem_books",
+      "href": "https://www.utp.or.jp/book/b297559.html"
+    }
+  },
+  {
+    "data": {
+      "id": "book_maclane_math",
+      "label": "『数学――その形式と機能』",
+      "type": "concept",
+      "parent": "mem_books",
+      "href": "https://www.morikita.co.jp/shoshi/ISBN978-4-627-01830-3.html"
+    }
+  },
+  {
+    "data": {
+      "id": "book_build_logic",
+      "label": "『論理学をつくる』",
+      "type": "concept",
+      "parent": "mem_books",
+      "href": "https://www.unp.or.jp/ISBN/ISBN4-8158-0390-0.html"
+    }
+  },
+  {
+    "data": {
+      "id": "book_lang_designers",
+      "label": "『言語設計者たちが考えること』",
+      "type": "concept",
+      "parent": "mem_books",
+      "href": "https://www.oreilly.co.jp/books/9784873114712/"
+    }
+  },
+  {
+    "data": {
+      "id": "book_category_theory",
+      "label": "『万物の理論としての圏論』",
+      "type": "concept",
+      "parent": "mem_books",
+      "href": "https://www.seidosha.co.jp/book/index.php?id=3883"
+    }
+  },
+  {
+    "data": {
+      "id": "book_kowalski",
+      "label": "『計算論理と人間の思考：推論AIへの論理的アプローチ』",
+      "type": "concept",
+      "parent": "mem_books",
+      "href": "https://www.hanmoto.com/bd/isbn/9784909240064"
+    }
+  },
+  {
+    "data": {
+      "id": "read_ueda",
+      "label": "「情報科学を学ぶ」",
+      "type": "concept",
+      "parent": "mem_reads",
+      "href": "https://www.ueda.info.waseda.ac.jp/~ueda/articles/gakuhou.html"
+    }
+  },
+  {
+    "data": {
+      "id": "read_lecture_se",
+      "label": "『レクチャー ソフトウェア工学』",
+      "type": "concept",
+      "parent": "mem_reads",
+      "href": "https://www.saiensu.co.jp/search/?isbn=978-4-86481-077-7&y=2021"
+    }
+  },
+  {
+    "data": {
+      "id": "read_ewd_archive",
+      "label": "EWD",
+      "type": "concept",
+      "parent": "mem_reads",
+      "href": "https://www.cs.utexas.edu/users/ewd/"
+    }
+  },
+  {
+    "data": {
+      "id": "field_se",
+      "label": "ソフトウェア工学",
+      "type": "concept",
+      "parent": "mem_research"
+    }
+  },
+  {
+    "data": {
+      "id": "field_fm",
+      "label": "形式手法",
+      "type": "concept",
+      "parent": "mem_research"
+    }
+  },
+  {
+    "data": {
+      "id": "field_pl",
+      "label": "プログラミング言語論",
+      "type": "concept",
+      "parent": "mem_research"
+    }
+  },
+  {
+    "data": {
+      "id": "concept_formal_spec",
+      "label": "形式仕様記述",
+      "type": "concept",
+      "parent": "mem_research"
+    }
+  },
+  {
+    "data": {
+      "id": "concept_model_checking",
+      "label": "モデル検査",
+      "type": "concept",
+      "parent": "mem_research"
+    }
+  },
+  {
+    "data": {
+      "id": "topic_hps",
+      "label": "科学史・科学哲学",
+      "type": "concept",
+      "parent": "mem_others"
+    }
+  },
+  {
+    "data": {
+      "id": "topic_linguistics",
+      "label": "言語学",
+      "type": "concept",
+      "parent": "mem_others"
+    }
+  },
+  {
+    "data": {
+      "id": "place_mie",
+      "label": "三重県",
+      "type": "concept",
+      "parent": "mem_bio"
+    }
+  },
+  {
+    "data": {
+      "id": "place_toba",
+      "label": "鳥羽水族館",
+      "type": "concept",
+      "parent": "mem_bio"
+    }
+  },
+  {
+    "data": {
+      "id": "school_takada",
+      "label": "高田中・高等学校",
+      "type": "concept",
+      "parent": "mem_bio"
+    }
+  },
+  {
+    "data": {
+      "id": "org_waseda",
+      "label": "早稲田大学",
+      "type": "concept",
+      "parent": "mem_bio"
+    }
+  },
+  {
+    "data": {
+      "id": "lab_ueda",
+      "label": "上田研究室",
+      "type": "concept",
+      "parent": "mem_bio"
+    }
+  },
+  {
+    "data": {
+      "id": "lab_washizaki_ubayashi",
+      "label": "鷲崎・鵜林研究室",
+      "type": "concept",
+      "parent": "mem_bio"
+    }
+  },
+  {
+    "data": {
+      "id": "e_se_uses_fm",
+      "source": "field_se",
+      "target": "field_fm",
+      "label": "uses"
+    }
+  },
+  {
+    "data": {
+      "id": "e_divide_motivates_hps",
+      "source": "value_divide",
+      "target": "topic_hps",
+      "label": "motivates"
+    }
+  },
+  {
+    "data": {
+      "id": "e2_elegance_motivates_fm",
+      "source": "value_elegance",
+      "target": "field_fm",
+      "label": "motivates"
+    }
+  },
+  {
+    "data": {
+      "id": "e2_waseda_upholds_independence",
+      "source": "org_waseda",
+      "target": "value_independence",
+      "label": "influences"
+    }
+  },
+  {
+    "data": {
+      "id": "e_lecture_influences_se",
+      "source": "read_lecture_se",
+      "target": "field_se",
+      "label": "influences"
+    }
+  },
+  {
+    "data": {
+      "id": "e_ueda_led_to_lab",
+      "source": "read_ueda",
+      "target": "lab_ueda",
+      "label": "led_to"
+    }
+  },
+  {
+    "data": {
+      "id": "e2_ewd_contains_elegance",
+      "source": "read_ewd_archive",
+      "target": "value_elegance",
+      "label": "influences"
+    }
+  },
+  {
+    "data": {
+      "id": "e_book_geb_influences_hps",
+      "source": "book_geb",
+      "target": "topic_hps",
+      "label": "influences"
+    }
+  },
+  {
+    "data": {
+      "id": "e_book_penrose_influences_hps",
+      "source": "book_penrose",
+      "target": "topic_hps",
+      "label": "influences"
+    }
+  },
+  {
+    "data": {
+      "id": "e_toba_in_mie",
+      "source": "place_toba",
+      "target": "place_mie",
+      "label": "located_in"
+    }
+  },
+  {
+    "data": {
+      "id": "e_takada_in_mie",
+      "source": "school_takada",
+      "target": "place_mie",
+      "label": "located_in"
+    }
+  },
+  {
+    "data": {
+      "id": "e_progress_takada_waseda",
+      "source": "school_takada",
+      "target": "org_waseda",
+      "label": "progression"
+    }
+  },
+  {
+    "data": {
+      "id": "e_linguistics_influences_pl",
+      "source": "topic_linguistics",
+      "target": "field_pl",
+      "label": "influences"
+    }
+  },
+  {
+    "data": {
+      "id": "e_lab_ueda_pl",
+      "source": "lab_ueda",
+      "target": "field_pl",
+      "label": "works_on"
+    }
+  },
+  {
+    "data": {
+      "id": "e_lab_wu_fm",
+      "source": "lab_washizaki_ubayashi",
+      "target": "field_fm",
+      "label": "works_on"
+    }
+  },
+  {
+    "data": {
+      "id": "e2_lab_ueda_to_wu",
+      "source": "lab_ueda",
+      "target": "lab_washizaki_ubayashi",
+      "label": "progression"
+    }
+  },
+  {
+    "data": {
+      "id": "e3_circle_influences_hps",
+      "source": "value_circle",
+      "target": "topic_hps",
+      "label": "influences"
+    }
+  },
+  {
+    "data": {
+      "id": "e3_godel20c_influences_hps",
+      "source": "book_godel20c",
+      "target": "topic_hps",
+      "label": "influences"
+    }
+  },
+  {
+    "data": {
+      "id": "e3_maclane_influences_category_book",
+      "source": "book_maclane_math",
+      "target": "book_category_theory",
+      "label": "influences"
+    }
+  },
+  {
+    "data": {
+      "id": "e3_category_influences_pl",
+      "source": "book_category_theory",
+      "target": "field_pl",
+      "label": "influences"
+    }
+  },
+  {
+    "data": {
+      "id": "e3_build_logic_influences_pl",
+      "source": "book_build_logic",
+      "target": "field_pl",
+      "label": "influences"
+    }
+  },
+  {
+    "data": {
+      "id": "e3_kowalski_influences_pl",
+      "source": "book_kowalski",
+      "target": "field_pl",
+      "label": "influences"
+    }
+  },
+  {
+    "data": {
+      "id": "e3_lang_designers_influences_pl",
+      "source": "book_lang_designers",
+      "target": "field_pl",
+      "label": "influences"
+    }
+  },
+  {
+    "data": {
+      "id": "e_fm_uses_spec",
+      "source": "field_fm",
+      "target": "concept_formal_spec",
+      "label": "uses"
+    }
+  },
+  {
+    "data": {
+      "id": "e_fm_uses_mc",
+      "source": "field_fm",
+      "target": "concept_model_checking",
+      "label": "uses"
+    }
+  }
+]

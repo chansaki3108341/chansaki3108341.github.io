@@ -222,6 +222,14 @@ main.container{
   margin: .92rem 0;
 }
 
+.prose img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem auto;
+  border-radius: 10px;
+}
+
 .prose ul, .prose ol{
   margin: .78rem 0 1.1rem;
   padding-left: 1.42rem;
@@ -341,6 +349,12 @@ main.container{
   padding: 0;
 }
 
+.prose mjx-container{
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 100%;
+}
+
 .prose .note{
   margin: var(--s-4) 0;
   padding: var(--s-3) var(--s-4);
@@ -404,9 +418,116 @@ main.container{
   background: var(--accent-soft);
 }
 
+/* Knowledge graph (Cytoscape.js) */
+.kg-shell{
+  position: relative;
+  display: block;
+}
+
+.kg-stage{
+  min-width: 0;
+}
+
+.kg{
+  height: min(83vh, 900px);
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface-strong);
+  box-shadow: var(--shadow-soft);
+  overflow: hidden;
+}
+
+.kg-panel{
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: min(320px, calc(100% - 24px));
+  z-index: 20;
+}
+
+.kg-panel__inner{
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--surface-strong) 88%, transparent);
+  box-shadow: var(--shadow-soft);
+  padding: var(--s-4);
+}
+
+.kg-panel__header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-3);
+  margin-bottom: var(--s-3);
+}
+
+.kg-panel__kicker{
+  margin: 0;
+}
+
+.kg-panel__title{
+  font-family: var(--font-heading);
+  font-size: 1.08rem;
+  line-height: 1.4;
+  margin: 0 0 .4rem;
+}
+
+.kg-panel__meta{
+  margin: 0 0 var(--s-4);
+}
+
+.kg-panel__actions{
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+}
+
+.kg-panel__open{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: .36rem .7rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+  text-decoration: none;
+  font-weight: 700;
+  transition: transform .18s ease, background-color .18s ease, border-color .18s ease;
+}
+
+.kg-panel__open:hover{
+  transform: translateY(-1px);
+  border-color: var(--accent);
+}
+
+.kg-panel__open[aria-disabled="true"]{
+  opacity: .55;
+  pointer-events: none;
+}
+
+.kg-panel__clear{
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--muted);
+  padding: .26rem .56rem;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.kg-panel__clear:hover{
+  border-color: var(--accent);
+  color: var(--accent-ink);
+}
+
+.kg-hint{
+  margin: 0 0 .75rem;
+}
+
 /* Murmur pages feel slightly more essay-like */
 .prose-murmur{
-  font-family: var(--font-display);
+  font-family: var(--font-heading);
 }
 
 .prose-murmur p{
@@ -437,6 +558,14 @@ main.container{
 }
 
 @media (max-width: 640px){
+  .kg-panel{
+    top: auto;
+    bottom: 12px;
+    left: 12px;
+    right: 12px;
+    width: auto;
+  }
+
   .site-header{
     padding: .72rem 0;
   }

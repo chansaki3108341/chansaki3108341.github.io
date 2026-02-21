@@ -28,6 +28,7 @@
       <nav class="site-nav" aria-label="サイト内">
         <a href="{{ '/' | relative_url }}">Home</a>
         <a href="{{ '/murmurs/' | relative_url }}">独り言</a>
+        <a href="{{ '/graph/' | relative_url }}">知識グラフ</a>
       </nav>
     </div>
   </header>
@@ -44,5 +45,31 @@
       </p>
     </div>
   </footer>
+
+  {% if page.math %}
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  {% endif %}
+
+  {% if page.scripts %}
+    {% for src in page.scripts %}
+      {% if src contains '://' %}
+        <script src="{{ src }}"></script>
+      {% else %}
+        <script src="{{ src | relative_url }}"></script>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 </body>
 </html>
