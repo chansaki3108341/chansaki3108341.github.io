@@ -258,6 +258,8 @@ main.container{
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: .2em;
+  overflow-wrap: anywhere;
+  word-break: break-word;
   transition: color .22s ease, text-decoration-thickness .22s ease;
 }
 
@@ -401,6 +403,7 @@ main.container{
 .refs-list{
   margin: .95rem 0 .4rem;
   padding-left: 1.55rem;
+  overflow-wrap: anywhere;
 }
 
 .refs-list li{
