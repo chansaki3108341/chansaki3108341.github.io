@@ -230,6 +230,29 @@ main.container{
   border-radius: 10px;
 }
 
+.prose .image-row{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin: 1rem 0;
+}
+
+.prose .image-row img{
+  width: 100%;
+  margin: 0;
+}
+
+.prose iframe{
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  margin: 1rem auto;
+  border: 0;
+  border-radius: 10px;
+}
+
 .prose ul, .prose ol{
   margin: .78rem 0 1.1rem;
   padding-left: 1.42rem;
@@ -583,6 +606,10 @@ main.container{
 
   .prose h2{
     padding-left: .72rem;
+  }
+
+  .prose .image-row{
+    grid-template-columns: 1fr;
   }
 }
 
