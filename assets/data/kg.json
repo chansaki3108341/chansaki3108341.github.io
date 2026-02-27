@@ -80,6 +80,15 @@
   },
   {
     "data": {
+      "id": "post_miraikan",
+      "label": "日本科学未来館",
+      "type": "post",
+      "parent": "page_murmurs",
+      "href": "/murmurs/2026-02-27-miraikan/"
+    }
+  },
+  {
+    "data": {
       "id": "value_elegance",
       "label": "Mathematical elegance decides between success and failure",
       "type": "concept",
@@ -439,6 +448,14 @@
       "source": "post_kamechan_pattern",
       "target": "club_science_biology",
       "label": "influenced_by"
+    }
+  },
+  {
+    "data": {
+      "id": "e_post_miraikan_related_hps",
+      "source": "post_miraikan",
+      "target": "topic_hps",
+      "label": "related_to"
     }
   },
   {
