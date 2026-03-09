@@ -24,7 +24,7 @@ math: true
 
 私も小学4年生の時から実家でクサガメを飼育しています。（名前はかめちゃん）
 
-![かめちゃん]({{ '/kamechan.JPG' | relative_url }})
+![かめちゃん]({{ '/assets/images/murmurs/kamechan-pattern/kamechan.jpg' | relative_url }})
 
 （ところで、愛亀はなんと読むのでしょう。愛犬や愛猫から類推するに、湯桶読みをして「あいき」でしょうか）
 
@@ -62,7 +62,7 @@ $$
 
 ## 生成結果
 
-![生成結果]({{ '/example.png' | relative_url }})
+![生成結果]({{ '/assets/images/murmurs/kamechan-pattern/example.png' | relative_url }})
 
 パラメータを試行錯誤した結果、かめちゃんの顔周りにある、あの生命感あふれる網目のような模様がうまく再現できた気がします。
 

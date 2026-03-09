@@ -30,9 +30,10 @@ GitHub Pages（Jekyll）で運用している個人サイトです。
 │   ├── default.html            # 共通レイアウト
 │   ├── page.html               # 通常ページ
 │   └── murmur.html             # 独り言記事ページ
-├── _murmurs/                   # 独り言コレクション（記事 + 画像）
+├── _murmurs/                   # 独り言コレクション（記事本文）
 ├── assets/
 │   ├── css/site.css            # サイト全体スタイル
+│   ├── images/murmurs/         # 独り言画像（記事ごとに整理）
 │   ├── js/kg.js                # 知識グラフ UI
 │   └── data/kg.json            # 知識グラフデータ
 ├── graph/index.md              # 知識グラフページ
@@ -63,6 +64,7 @@ comments: true
 - `math: true` を付けると MathJax を読み込みます。
 - `comments: false` を付けると、その記事ではコメント欄を非表示にします。
 - `_config.yml` のコレクション設定により、記事は `/murmurs/:name/` で公開されます。
+- 画像は `assets/images/murmurs/<post-slug>/` に配置し、本文では `{{ '/assets/images/...' | relative_url }}` で参照します。
 
 ## 知識グラフ（`/graph/`）の更新
 
