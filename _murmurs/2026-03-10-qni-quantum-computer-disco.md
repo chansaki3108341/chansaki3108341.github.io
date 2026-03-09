@@ -89,7 +89,7 @@ math: true
 
 $$
 
-X,\;X,\;H,\;\phi(\pi/2),\;H,\;\mathrm{CNOT}_{0\to1},\;X
+X,\;X,\;H,\;P(\pi/2),\;H,\;\mathrm{CNOT}_{0\to1},\;X
 
 $$
 
@@ -102,7 +102,7 @@ $$
 (X\otimes I)\,
 \mathrm{CNOT}_{0\to1}\,
 (H\otimes I)\,
-(\phi(\pi/2)\otimes I)\,
+(P(\pi/2)\otimes I)\,
 (H\otimes I)\,
 (X\otimes I)\,
 (X\otimes I)\,
@@ -128,14 +128,14 @@ $$
 =
 (X\otimes I)\,
 \mathrm{CNOT}_{0\to1}\,
-\bigl(H\phi(\pi/2)H \otimes I\bigr)\,
+\bigl(HP(\pi/2)H \otimes I\bigr)\,
 |00\rangle
 
 $$
 
 となります。
 
-### [1] 1量子ビット部分 $H\phi(\pi/2)H$ を計算
+### [1] 1量子ビット部分 $HP(\pi/2)H$ を計算
 
 まず各行列は
 
@@ -147,7 +147,7 @@ H=\frac{1}{\sqrt 2}
 1 & -1
 \end{pmatrix},
 \qquad
-\phi(\pi/2)=
+P(\pi/2)=
 \begin{pmatrix}
 1 & 0\\
 0 & i
@@ -161,7 +161,7 @@ $$
 
 $$
 
-H\phi(\pi/2)H
+HP(\pi/2)H
 =
 \frac12
 \begin{pmatrix}
@@ -183,7 +183,7 @@ $$
 
 $$
 
-H\phi(\pi/2)H
+HP(\pi/2)H
 =
 \frac12
 \begin{pmatrix}
@@ -199,7 +199,7 @@ $$
 
 $$
 
-H\phi(\pi/2)H \otimes I
+HP(\pi/2)H \otimes I
 =
 \frac12
 \begin{pmatrix}
@@ -255,7 +255,7 @@ $$
 
 ### [3] 実際に順に掛ける
 
-#### (a) $H\phi(\pi/2)H \otimes I$ を作用
+#### (a) $HP(\pi/2)H \otimes I$ を作用
 
 $$
 
