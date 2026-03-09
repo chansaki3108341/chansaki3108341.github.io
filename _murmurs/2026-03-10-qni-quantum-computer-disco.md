@@ -506,7 +506,7 @@ $$
     <a href="#cite-6" aria-label="本文の参照箇所へ戻る">↩</a>
   </li>
   <li id="ref-7">
-    Qni 公式サイト<br>
+    Qni Tutorial<br>
     <a href="https://qniapp.github.io/qni/">https://qniapp.github.io/qni/</a>
     <a href="#cite-7" aria-label="本文の参照箇所へ戻る">↩</a>
   </li>
