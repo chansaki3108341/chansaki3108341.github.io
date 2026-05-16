@@ -111,7 +111,7 @@ description: PCにむかひて、心にうつりゆくよしなしごとを、�
   <li id="ref-11"><a href="https://www.oreilly.co.jp/books/9784873114712/">オライリー・ジャパン『言語設計者たちが考えること』</a></li>
   <li id="ref-12"><a href="https://www.seidosha.co.jp/book/index.php?id=3883">青土社『万物の理論としての圏論』（丸山善宏）</a></li>
   <li id="ref-13"><a href="https://www.hanmoto.com/bd/isbn/9784909240064">版元ドットコム『計算論理と人間の思考：推論AIへの論理的アプローチ』（コワルスキ著）</a></li>
-  <li id="ref-14"><a href="https://www.ueda.info.waseda.ac.jp/~ueda/articles/gakuhou.html">上田和紀「情報科学を学ぶ」（早稲田学報 1994年5月号）</a></li>
+  <li id="ref-14"><a href="https://www.uedalab.jp/~ueda/readings/gakuhou.html">上田和紀「情報科学を学ぶ」（早稲田学報 1994年5月号）</a></li>
   <li id="ref-15"><a href="https://www.saiensu.co.jp/search/?isbn=978-4-86481-077-7&y=2021">サイエンス社（数理工学社）『レクチャー ソフトウェア工学』（鵜林尚靖, 2021）</a></li>
   <li id="ref-16"><a href="https://www.cs.utexas.edu/users/ewd/">E.W. Dijkstra Archive (UT Austin)</a></li>
   <li id="ref-17"><a href="https://www.cs.utexas.edu/~EWD/ewd11xx/EWD1165.PDF">Edsger W. Dijkstra, “EWD 1165” (PDF), E.W. Dijkstra Archive (UT Austin)</a></li>
@@ -124,8 +124,8 @@ description: PCにむかひて、心にうつりゆくよしなしごとを、�
   <li id="ref-24"><a href="https://www.mikimoto-pearl-island.jp/post/_%E6%9C%88%E3%81%8B%E6%98%9F%E3%81%8B">ミキモト真珠島 館長ブログ132「月か星か」（2020-08-26 / 更新 2022-09-19）</a></li>
   <li id="ref-25"><a href="https://chubu.env.go.jp/pdf_kamitukigameA4.pdf">環境省（中部地方環境事務所）「特定外来生物『カミツキガメ』を見かけたら」（PDF）</a></li>
   <li id="ref-26"><a href="https://www.env.go.jp/nature/intro/1law/shiyou/tetsuduki.html">環境省「飼養等に関する手続き（外来生物法 / 日本の外来種対策）」</a></li>
-  <li id="ref-27"><a href="https://www.ueda.info.waseda.ac.jp/index_j.html">上田研究室（早稲田大学）</a></li>
-  <li id="ref-28"><a href="https://www.ueda.info.waseda.ac.jp/~ueda/index-j.html">上田和紀（上田研究室）</a></li>
+  <li id="ref-27"><a href="https://www.uedalab.jp/index_j.html">上田研究室（早稲田大学）</a></li>
+  <li id="ref-28"><a href="https://www.uedalab.jp/~ueda/index-j.html">上田和紀（上田研究室）</a></li>
   <li id="ref-29"><a href="http://www.washi.cs.waseda.ac.jp/">鷲崎・鵜林研究室（早稲田大学）</a></li>
   <li id="ref-30"><a href="https://w-rdb.waseda.jp/html/100004061_ja.html">鵜林尚靖（早稲田大学 研究者データベース）</a></li>
 </ol>
